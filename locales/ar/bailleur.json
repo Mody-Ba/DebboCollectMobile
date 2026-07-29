@@ -1,0 +1,27 @@
+{
+  "funder": "الجهة الممولة",
+  "myProjects": "مشاريعي",
+  "noProject": "لم يتم إرسال أي مشروع حتى الآن",
+  "loading": "جارٍ التحميل...",
+  "statistics": "الإحصائيات",
+  "statisticsDescription": "اطلع على البيانات التي تم جمعها من الميدان.",
+  "collections": "عمليات الجمع",
+  "men": "الرجال",
+  "women": "النساء",
+  "children": "الأطفال",
+  "adults": "البالغون",
+  "seniors": "كبار السن",
+  "filterByRegion": "تصفية حسب المنطقة",
+  "allRegions": "جميع المناطق",
+  "formStatistics": "إحصائيات الاستمارة",
+
+  "back": "رجوع",
+  "allCharts": "جميع الرسوم البيانية",
+  "messages": "الرسائل",
+  "messagePlaceholder": "اكتب رسالة...",
+  "logout": "تسجيل الخروج"
+
+
+
+
+}

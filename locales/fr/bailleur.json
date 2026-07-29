@@ -1,0 +1,30 @@
+{
+  "funder": "Bailleur",
+  "myProjects": "Mes projets",
+  "noProject": "Aucun projet envoyé pour le moment",
+
+  "loading": "Chargement...",
+  "statistics": "États & Statistiques",
+  "statisticsDescription": "Consultez les données collectées sur le terrain.",
+  "collections": "Collectes",
+  "men": "Hommes",
+  "women": "Femmes",
+  "children": "Enfants",
+  "adults": "Adultes",
+  "seniors": "Aînés",
+  "filterByRegion": "Filtrer par région",
+  "allRegions": "Toutes les régions",
+  "formStatistics": "Statistiques du formulaire",
+
+  "back": "Retour",
+  "allCharts": "Tous les graphiques",
+
+  "messages": "Messages",
+
+  "messagePlaceholder": "Message...",
+  "logout": "Déconnexion"
+
+
+
+
+}

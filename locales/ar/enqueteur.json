@@ -1,0 +1,72 @@
+{
+  "hello": "مرحبًا",
+  "welcome": "مرحبًا بك في DebboCollect",
+  "myProjects": "مشاريعي",
+  "myCollections": "عمليات الجمع الخاصة بي",
+  "validated": "تم التحقق",
+  "revisions": "المراجعات",
+  "logout": "تسجيل الخروج",
+  "numberOfProjects": "عدد المشاريع",
+
+  "success": "نجاح",
+  "error": "خطأ",
+  "loading": "جارٍ التحميل...",
+  "assignedProject": "المشروع المخصص",
+  "fillForm": "ملء الاستمارة",
+  "batchCreatedWith": "تم إنشاء دفعة تحتوي على",
+  "collections": "عملية جمع",
+  "noCollectionToSend": "لا توجد عمليات جمع لإرسالها",
+
+  "form": "الاستمارة",
+  "yourAnswer": "إجابتك",
+  "datePlaceholder": "YYYY-MM-DD",
+  "yesNo": "نعم / لا",
+  "select": "اختر...",
+  "save": "حفظ",
+  "collectionSaved": "تم حفظ عملية الجمع بنجاح",
+  "cannotSaveCollection": "تعذر حفظ عملية الجمع",
+  "projectId": "معرف المشروع",
+  "numberOfCollections": "عدد عمليات الجمع",
+  "status": "الحالة",
+  "viewCollections": "عرض عمليات الجمع",
+  "sendBatch": "إرسال الدفعة",
+  "revisionRequested": "تم طلب المراجعة",
+  "validated": "تم التحقق",
+  "sent": "تم الإرسال",
+  "saved": "تم الحفظ",
+  "batchSentWith": "تم إرسال الدفعة التي تحتوي على",
+  "collection": "عملية الجمع",
+  "numberOfAnswers": "عدد الإجابات",
+  "supervisorComment": "تعليق المشرف",
+  "saveChanges": "حفظ التعديلات",
+  "changesSaved": "تم حفظ التعديلات",
+  "cannotEditCollection": "تعذر تعديل عملية الجمع",
+  "collectionSent": "تم إرسال عملية الجمع إلى المشرف",
+  "cannotSendCollection": "تعذر إرسال عملية الجمع",
+
+  "projectCollections": "عمليات جمع المشروع",
+  "collectionsSent": "عملية جمع تم إرسالها",
+  "sendSavedCollections": "إرسال عمليات الجمع المحفوظة",
+  "validatedStatus": "تم التحقق",
+
+  "myStatistics": "إحصائياتي",
+  "statisticsDescription": "اطلع على إحصائيات عمليات الجمع الخاصة بك.",
+  "men": "الرجال",
+  "women": "النساء",
+  "children": "الأطفال",
+  "adults": "البالغون",
+  "seniors": "كبار السن",
+  "filterByRegion": "تصفية حسب المنطقة",
+  "allRegions": "جميع المناطق",
+  "formStatistics": "إحصائيات الاستمارة",
+  "allCharts": "جميع الرسوم البيانية",
+  "yes": "نعم",
+  "no": "لا"
+
+
+
+
+
+
+
+}

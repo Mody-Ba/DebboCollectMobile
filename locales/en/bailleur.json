@@ -1,0 +1,31 @@
+{
+  "funder": "Funder",
+  "myProjects": "My projects",
+  "noProject": "No project has been sent yet",
+
+  "loading": "Loading...",
+  "statistics": "Statistics",
+  "statisticsDescription": "View the data collected in the field.",
+  "collections": "Collections",
+  "men": "Men",
+  "women": "Women",
+  "children": "Children",
+  "adults": "Adults",
+  "seniors": "Seniors",
+  "filterByRegion": "Filter by region",
+  "allRegions": "All regions",
+  "formStatistics": "Form statistics",
+
+  "back": "Back",
+  "allCharts": "All charts",
+
+  "messages": "Messages",
+
+
+  "messagePlaceholder": "Message...",
+  "logout": "Logout"
+
+
+
+
+}

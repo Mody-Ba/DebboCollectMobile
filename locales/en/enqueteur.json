@@ -1,0 +1,73 @@
+{
+  "hello": "Hello",
+  "welcome": "Welcome to DebboCollect",
+  "myProjects": "My projects",
+  "myCollections": "My collections",
+  "validated": "Validated",
+  "revisions": "Revisions",
+  "logout": "Logout",
+  "numberOfProjects": "Number of projects",
+
+  "success": "Success",
+  "error": "Error",
+  "loading": "Loading...",
+  "assignedProject": "Assigned project",
+  "fillForm": "Fill out the form",
+  "batchCreatedWith": "Batch created with",
+  "collections": "collection(s)",
+  "noCollectionToSend": "No collection available to send",
+
+  "form": "Form",
+  "yourAnswer": "Your answer",
+  "datePlaceholder": "YYYY-MM-DD",
+  "yesNo": "Yes / No",
+  "select": "Select...",
+  "save": "Save",
+  "collectionSaved": "Collection saved successfully",
+  "cannotSaveCollection": "Unable to save the collection",
+
+  "projectId": "Project ID",
+  "numberOfCollections": "Number of collections",
+  "status": "Status",
+  "viewCollections": "View collections",
+  "sendBatch": "Send batch",
+  "revisionRequested": "Revision requested",
+  "validated": "Validated",
+  "sent": "Sent",
+  "saved": "Saved",
+  "batchSentWith": "Batch sent with",
+  "collection": "Collection",
+  "numberOfAnswers": "Number of answers",
+  "supervisorComment": "Supervisor comment",
+  "saveChanges": "Save changes",
+  "changesSaved": "Changes saved",
+  "cannotEditCollection": "Unable to edit the collection",
+  "collectionSent": "Collection sent to the supervisor",
+  "cannotSendCollection": "Unable to send the collection",
+
+  "projectCollections": "Project collections",
+  "collectionsSent": "collection(s) sent",
+  "sendSavedCollections": "Send saved collections",
+  "validatedStatus": "Validated",
+
+  "myStatistics": "My statistics",
+  "statisticsDescription": "View the statistics of your collections.",
+  "men": "Men",
+  "women": "Women",
+  "children": "Children",
+  "adults": "Adults",
+  "seniors": "Seniors",
+  "filterByRegion": "Filter by region",
+  "allRegions": "All regions",
+  "formStatistics": "Form statistics",
+  "allCharts": "All charts",
+  "yes": "Yes",
+  "no": "No"
+
+
+
+
+
+
+
+}

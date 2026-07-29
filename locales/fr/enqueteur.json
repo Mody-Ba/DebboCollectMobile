@@ -1,0 +1,73 @@
+{
+  "hello": "Bonjour",
+  "welcome": "Bienvenue dans DebboCollect",
+  "myProjects": "Mes projets",
+  "myCollections": "Mes collectes",
+  "validated": "Validées",
+  "validatedStatus": "Validé",
+  "revisions": "Révisions",
+  "logout": "Déconnexion",
+  "numberOfProjects": "Nombre de projets",
+
+  "success": "Succès",
+  "error": "Erreur",
+  "loading": "Chargement...",
+
+  "assignedProject": "Projet assigné",
+  "fillForm": "Remplir le formulaire",
+
+  "batchCreatedWith": "Lot créé avec",
+  "batchSentWith": "Lot envoyé avec",
+
+  "collections": "collecte(s)",
+  "collection": "Collecte",
+  "collectionSaved": "Collecte enregistrée avec succès",
+  "collectionSent": "Collecte envoyée au superviseur",
+
+  "cannotSaveCollection": "Impossible d'enregistrer la collecte",
+  "cannotEditCollection": "Impossible de modifier la collecte",
+  "cannotSendCollection": "Impossible d'envoyer la collecte",
+  "noCollectionToSend": "Aucune collecte enregistrée à envoyer",
+
+  "form": "Formulaire",
+  "yourAnswer": "Votre réponse",
+  "datePlaceholder": "AAAA-MM-JJ",
+  "yesNo": "Oui / Non",
+  "select": "Sélectionner...",
+  "save": "Enregistrer",
+
+  "projectId": "Projet ID",
+  "numberOfCollections": "Nombre de collectes",
+  "numberOfAnswers": "Nombre de réponses",
+  "status": "Statut",
+
+  "viewCollections": "Voir les collectes",
+  "sendBatch": "Envoyer le lot",
+
+  "revisionRequested": "Révision demandée",
+  "sent": "Envoyé",
+  "saved": "Enregistré",
+
+  "supervisorComment": "Commentaire du superviseur",
+  "saveChanges": "Enregistrer les modifications",
+  "changesSaved": "Modifications enregistrées",
+  "projectCollections": "Collectes du projet",
+  "collectionsSent": "collecte(s) envoyée(s)",
+  "sendSavedCollections": "Envoyer les collectes enregistrées",
+
+  "myStatistics": "Mes statistiques",
+  "statisticsDescription": "Consultez les statistiques de vos collectes.",
+  "men": "Hommes",
+  "women": "Femmes",
+  "children": "Enfants",
+  "adults": "Adultes",
+  "seniors": "Aînés",
+  "filterByRegion": "Filtrer par région",
+  "allRegions": "Toutes les régions",
+  "formStatistics": "Statistiques du formulaire",
+  "allCharts": "Tous les graphiques",
+  "yes": "Oui",
+  "no": "Non"
+
+
+}
