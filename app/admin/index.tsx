@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity } from "react-native";
+import {View, Text, TouchableOpacity, Platform} from "react-native";
 import { router } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { useEffect, useState } from "react";
@@ -308,23 +308,35 @@ export default function AdminScreen() {
             </TouchableOpacity>
             <TouchableOpacity
                 onPress={() => {
-                    Alert.alert(
-                        i18n.t("common:logout"),
-                        i18n.t("common:logout_confirm"),
-                        [
-                            {
-                                 text: i18n.t("common:no"),
-                                style: "cancel",
-                            },
-                            {
-                                text: i18n.t("common:yes"),
-                                onPress: async () => {
-                                    await removeToken();
-                                    router.replace("/login");
+                    if (Platform.OS === "web") {
+                        const confirmed = window.confirm(
+                            `${i18n.t("common:logout")}\n${i18n.t("common:logout_confirm")}`
+                        );
+                        if (confirmed) {
+                            (async () => {
+                                await removeToken();
+                                router.replace("/login");
+                            })();
+                        }
+                    } else {
+                        Alert.alert(
+                            i18n.t("common:logout"),
+                            i18n.t("common:logout_confirm"),
+                            [
+                                {
+                                    text: i18n.t("common:no"),
+                                    style: "cancel",
                                 },
-                            },
-                        ]
-                    );
+                                {
+                                    text: i18n.t("common:yes"),
+                                    onPress: async () => {
+                                        await removeToken();
+                                        router.replace("/login");
+                                    },
+                                },
+                            ]
+                        );
+                    }
                 }}
                 style={{
                     backgroundColor: "white",
