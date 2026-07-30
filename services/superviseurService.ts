@@ -1,7 +1,7 @@
 import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-const API_URL = "https://debbo-collect.onrender.com";
+const API_URL = "http://192.168.2.70:8080";
 
 export const getSuperviseurs = async (): Promise<any> => {
 

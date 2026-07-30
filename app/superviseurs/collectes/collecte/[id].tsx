@@ -22,7 +22,7 @@ import {
     getMediasByReponse,
 } from "../../../../services/mediaService";
 
-const SERVER_URL = "https://debbo-collect.onrender.com";
+const SERVER_URL = "http://192.168.2.70:8080";
 
 export default function DetailCollecteSuperviseur() {
     const { id } = useLocalSearchParams();

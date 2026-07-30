@@ -154,15 +154,13 @@ export default function FormulaireEnqueteur() {
             setPreuves({});
 
 
-        } catch (error) {
-
-            console.log(error);
-
-            Alert.alert(
-                t("error"),
-                t("cannotSaveCollection")
-            );
-        }
+        }  catch (error: any) {
+        console.log(error);
+        Alert.alert(
+            "Erreure détaillée (debug)",
+            error?.message || JSON.stringify(error)
+        );
+    }
     };
 
     const choisirPhoto = async (champId: number) => {

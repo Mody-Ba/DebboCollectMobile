@@ -129,7 +129,7 @@ export default function DetailProjetScreen() {
         try {
 
             const url =
-                `https://debbo-collect.onrender.com/api/projets/${id}/excel`;
+                `http://192.168.2.70:8080/api/projets/${id}/excel`;
 
             const canOpen = await Linking.canOpenURL(url);
 

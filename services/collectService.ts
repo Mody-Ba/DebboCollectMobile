@@ -2,7 +2,7 @@ import axios from "axios";
 import { getToken } from "./authService";
 import * as Location from "expo-location";
 
-const API_URL = "https://debbo-collect.onrender.com/api/collectes";
+const API_URL = "http://192.168.2.70:8080/api/collectes";
 
 export const creerCollecte = async (
     projetId: number
@@ -81,7 +81,7 @@ export const getReponsesByCollecte = async (
     const token = await getToken();
 
     const response = await axios.get(
-        `https://debbo-collect.onrender.com/api/reponses/collecte/${collecteId}`,
+        `http://192.168.2.70:8080/api/reponses/collecte/${collecteId}`,
         {
             headers: {
                 Authorization: `Bearer ${token}`,
@@ -100,7 +100,7 @@ export const modifierReponse = async (
     const token = await getToken();
 
     const response = await axios.put(
-        `https://debbo-collect.onrender.com/api/reponses/${reponseId}`,
+        `http://192.168.2.70:8080/api/reponses/${reponseId}`,
         {
             valeur,
             champId,

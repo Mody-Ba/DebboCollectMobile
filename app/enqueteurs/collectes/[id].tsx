@@ -209,7 +209,7 @@ export default function DetailCollecte() {
                                 source={{
                                     uri: medias[item.id].startsWith("http")
                                         ? medias[item.id]
-                                        : `https://debbo-collect.onrender.com${medias[item.id].startsWith("/") ? "" : "/uploads/"}${medias[item.id]}`,
+                                        : `http://192.168.2.70:8080${medias[item.id].startsWith("/") ? "" : "/uploads/"}${medias[item.id]}`,
                                 }}
                                 style={{
                                     width: "100%",
