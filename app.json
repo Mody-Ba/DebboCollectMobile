@@ -27,22 +27,29 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
-    "plugins": [
-      "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#FFFFFF",
-          "dark": {
-            "backgroundColor": "#FFFFFF"
+
+      "plugins": [
+        "expo-router",
+        [
+          "expo-splash-screen",
+          {
+            "image": "./assets/images/splash-icon.png",
+            "imageWidth": 200,
+            "resizeMode": "contain",
+            "backgroundColor": "#FFFFFF",
+            "dark": {
+              "backgroundColor": "#FFFFFF"
+            }
           }
-        }
+        ],
+        "expo-localization",
+        [
+          "expo-location",
+          {
+            "locationAlwaysAndWhenInUsePermission": "Permettez à DebboCollect d'accéder à votre position pour localiser vos collectes."
+          }
+        ]
       ],
-      "expo-localization"
-    ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
