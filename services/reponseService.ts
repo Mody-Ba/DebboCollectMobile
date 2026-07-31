@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getToken } from "./authService";
 
-const API_URL = "http://192.168.2.70:8080/api/reponses";
+const API_URL = "https://debbo-collect.onrender.com/api/reponses";
 
 export const creerReponse = async (
     valeur: string,

@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getToken } from "./authService";
 
-const API_URL = "http://192.168.2.70:8080/api/lots";
+const API_URL = "https://debbo-collect.onrender.com/api/lots";
 
 export const creerLot = async (
     projetId: number

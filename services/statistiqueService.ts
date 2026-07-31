@@ -2,7 +2,7 @@ import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { getToken } from "@/services/authService";
 
-const API_URL = "http://192.168.2.70:8080/api/statistiques";
+const API_URL = "https://debbo-collect.onrender.com/api/statistiques";
 
 const getHeaders = async () => {
 

@@ -5,7 +5,7 @@ import * as FileSystem from "expo-file-system/legacy";
 import * as Sharing from "expo-sharing";
 
 
-const API_URL = "http://192.168.2.70:8080/api/projets";
+const API_URL = "https://debbo-collect.onrender.com/api/projets";
 
 const getHeaders = async () => {
     const token = await AsyncStorage.getItem("token");
@@ -124,7 +124,7 @@ export const getProjetsBailleur = async () => {
 
 export const getDashboard = async () => {
     const response = await axios.get(
-        "http://192.168.2.70:8080/api/statistiques/dashboard",
+        "https://debbo-collect.onrender.com/api/statistiques/dashboard",
         {
             headers: await getHeaders(),
         }
