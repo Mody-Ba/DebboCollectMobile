@@ -187,7 +187,7 @@ export default function FormulaireEnqueteur() {
                         const resultat =
                             await ImagePicker.launchCameraAsync({
                                 mediaTypes: ["images"],
-                                quality: 0.8,
+                                quality: 0.5,
                             });
 
                         if (!resultat.canceled) {
@@ -207,7 +207,7 @@ export default function FormulaireEnqueteur() {
                         const resultat =
                             await ImagePicker.launchImageLibraryAsync({
                                 mediaTypes: ["images"],
-                                quality: 0.8,
+                                quality: 0.5,
                             });
 
                         if (!resultat.canceled) {

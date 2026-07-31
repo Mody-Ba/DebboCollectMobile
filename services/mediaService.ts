@@ -70,6 +70,7 @@ export const creerMedia = async (
             headers: {
                 Authorization: `Bearer ${token}`,
             },
+            timeout: 60000, // 60 secondes pour les uploads
         }
     );
 
