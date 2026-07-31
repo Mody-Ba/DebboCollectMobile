@@ -26,6 +26,7 @@ export default function FormulaireEnqueteur() {
     const [reponses, setReponses] = useState<any>({});
     const [preuves, setPreuves] = useState<any>({});
     const [projet, setProjet] = useState<any>(null);
+    const [envoiEnCours, setEnvoiEnCours] = useState(false);
     const { t } = useTranslation("enqueteur");
 
     useEffect(() => {
@@ -112,6 +113,8 @@ export default function FormulaireEnqueteur() {
             return;
         }
 
+        setEnvoiEnCours(true);   // ← LIGNE AJOUTÉE ICI, juste avant le try
+
         try {
 
             const collecte = await creerCollecte(
@@ -155,13 +158,16 @@ export default function FormulaireEnqueteur() {
 
 
         }  catch (error: any) {
-        console.log(error);
-        Alert.alert(
-            "Erreure détaillée (debug)",
-            error?.message || JSON.stringify(error)
-        );
-    }
+            console.log(error);
+            Alert.alert(
+                "Erreure détaillée (debug)",
+                error?.message || JSON.stringify(error)
+            );
+        } finally {
+            setEnvoiEnCours(false);   // ← BLOC AJOUTÉ ICI, après le catch
+        }
     };
+
 
     const choisirPhoto = async (champId: number) => {
 
@@ -509,22 +515,16 @@ export default function FormulaireEnqueteur() {
 
             <TouchableOpacity
                 onPress={enregistrer}
+                disabled={envoiEnCours}
                 style={{
-                    backgroundColor: "#16A34A",
+                    backgroundColor: envoiEnCours ? "#94D3A2" : "#16A34A",
                     padding: 15,
                     borderRadius: 12,
                     marginBottom: 30,
                 }}
             >
-                <Text
-                    style={{
-                        color: "white",
-                        textAlign: "center",
-                        fontWeight: "bold",
-                        fontSize: 16,
-                    }}
-                >
-                    {t("save")}
+                <Text style={{ color: "white", textAlign: "center", fontWeight: "bold", fontSize: 16 }}>
+                    {envoiEnCours ? "Envoi..." : t("save")}
                 </Text>
             </TouchableOpacity>
 
